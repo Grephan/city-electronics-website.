@@ -1,0 +1,74 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>City Electronics</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background: #f3f5f8;
+      color: #202938;
+    }
+    header {
+      background: #14213d;
+      color: white;
+      padding: 28px 16px;
+      text-align: center;
+    }
+    main {
+      max-width: 650px;
+      margin: auto;
+      padding: 20px;
+    }
+    .product {
+      background: white;
+      padding: 16px;
+      margin: 12px 0;
+      border-radius: 12px;
+    }
+    a {
+      display: inline-block;
+      background: #167d46;
+      color: white;
+      padding: 12px 18px;
+      border-radius: 8px;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>City Electronics</h1>
+    <p>Your home for electronics</p>
+  </header>
+
+  <main>
+    <h2>Our Products</h2>
+
+    <div class="product">
+      <h3>Smartphones</h3>
+      <p>Android phones and iPhones.</p>
+    </div>
+
+    <div class="product">
+      <h3>Accessories</h3>
+      <p>Chargers, earphones and power banks.</p>
+    </div>
+
+    <div class="product">
+      <h3>Televisions</h3>
+      <p>Explore TVs for your home.</p>
+    </div>
+
+    <h2>Contact Us</h2>
+    <p>Ask us about available products and prices.</p>
+
+    <a href="https://wa.me/260761812014">
+      Chat on WhatsApp
+    </a>
+  </main>
+</body>
+</html>
